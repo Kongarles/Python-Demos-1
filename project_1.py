@@ -26,8 +26,9 @@ class HealthInsurance:
 
 HI_company1 = HealthInsurance('Healthy', 2012, 'Bob Mayer', 'We care for you.', 3500, 13230)
 
-HI_company1.sup_health_insurance(45, False, 5000)
+HI_company1.sup_health_insurance(36, True, 6000)
 
 HI_company1.update_num_clients(13231)
 
 HI_company1.print_report()
+
